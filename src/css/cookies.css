@@ -1,0 +1,140 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+.cookies-container{
+  padding: 32px 20px;
+}
+.button-cookies{
+  border-radius: 4px;
+width: 187px;
+height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+color: #4d2e1b;
+border: none;
+background-color: #ffce45;
+margin-bottom: 24px;
+}
+.cookies-title{
+  font-family: "Fredoka", sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 150%;
+color: #4d2e1b;
+margin-bottom: 24px;
+}
+.cookies-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+margin-bottom: 24px;
+}
+.cookies-link{
+  text-decoration: underline;
+}
+.cookies-subtitle{
+  font-family: "Fredoka", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+color: #4d2e1b;
+margin-bottom: 16px;
+}
+.cookies-text-list{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+margin-bottom: 8px;
+}
+.cookies-text-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+}
+.cookies-list{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+  list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 24px;
+}
+.list-rules-text{
+  font-family: "Fredoka", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #4d2e1b;
+list-style-type: disc;
+padding-left: 20px;
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+.cookies-link-list{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+list-style-type: disc;
+padding-left: 20px;
+margin-bottom: 24px;
+}
+@media only screen and (min-width:1439px) {
+  .cookies-title{
+font-weight: 500;
+font-size: 64px;
+line-height: 150%;
+  }
+  .cookies-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+  }
+  .cookies-subtitle{
+font-weight: 500;
+font-size: 36px;
+line-height: 150%;
+  }
+  .cookies-text-list{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+  }
+  .cookies-text-text{
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+  }
+  .list-rules-text{
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+  }
+  .cookies-list{
+    font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+  }
+  .cookies-link-list{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+}

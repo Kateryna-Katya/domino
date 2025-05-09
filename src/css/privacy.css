@@ -1,0 +1,91 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+.privacy-container{
+  padding: 32px 20px;
+}
+.button-privacy{
+  border-radius: 4px;
+width: 187px;
+height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+color: #4d2e1b;
+border: none;
+background-color: #ffce45;
+margin-bottom: 24px;
+}
+.privacy-title{
+  font-family: "Fredoka", sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 150%;
+color: #4d2e1b;
+}
+.privacy-first-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.privacy-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+margin-bottom: 24px;
+}
+.privacy-subtitle{
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #4d2e1b;
+  margin-bottom: 16px;
+}
+.privacy-list-text{
+  font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #4d2e1b;
+}
+.privacy-list{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #4d2e1b;
+    list-style-type: disc;
+        padding-left: 20px;
+        margin-bottom: 24px;
+  }
+  .privacy-link{
+    text-decoration: underline;
+  }
+  @media only screen and (min-width:1439px) {
+    .privacy-title{
+font-size: 64px;
+    }
+    .privacy-first-text{
+font-size: 18px;
+    }
+    .privacy-text{
+font-size: 18px;
+    }
+    .privacy-list-text{
+font-size: 18px;
+    }
+    .privacy-list{
+font-size: 18px;
+    }
+  }
