@@ -4,22 +4,22 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.child-swiper', {
+    const swiper = new Swiper('.play-swiper', {
         modules: [Navigation],
         breakpoints: {
             374: {
-                slidesPerView: 1.2,
-                spaceBetween: 10,
+                slidesPerView: 2,
+                spaceBetween: 20,
             },
             1439: {
-                slidesPerView: 3.2,
-                spaceBetween: 10,
+                slidesPerView: 3,
+                spaceBetween: 24,
             },
         },
         slidesPerView: 'auto',
         loop: true,
-        slideClass: 'child-swiper-slide',
-        wrapperClass: 'child-swiper-wrapper',
+        slideClass: 'play-swiper-slide',
+        wrapperClass: 'play-swiper-wrapper',
         direction: 'horizontal',
 
         navigation: {
