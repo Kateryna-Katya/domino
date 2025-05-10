@@ -107,3 +107,181 @@
      margin-top: 48px;
    }
 }
+/* Game Features */
+.features-section{
+    background-image: url("/img/features/dominos-mob.png");
+    background-repeat: no-repeat;
+    background-position: top 84px center;
+    background-size: 210px 300px;
+}
+.features-title{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.5;
+        color: #a06646;
+        margin-bottom: 32px;
+        text-align: center;
+}
+.features-swiper-slide{
+    background: #9100d9;
+    border: 3px solid #9100d9;
+    border-radius: 10px;
+        padding: 20px;
+        min-height: 236px;
+        gap: 10px;
+}
+.features-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 223px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.features-title-item{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #fff;
+        width: 223px;
+}
+.features-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+        width: 223px;
+}
+.features-custom-arrow {
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    background: #9100d9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-nav {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 34px;
+}
+@media only screen and (min-width: 1439px) {
+ .features-section {
+background-image: url("/img/features/dominos-desk.png");
+background-repeat: no-repeat;
+background-position: top 130px left 320px;
+background-size: 690px 750px;
+ }
+ .features-title {
+font-size: 64px;
+ margin-bottom: 48px;
+  } 
+.features-swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 52px;
+    gap: 52px;
+}
+.features-swiper-slide{
+    border-radius: 10px;
+        padding: 24px;
+        max-width: 397px;
+        height: 188px;
+}
+.features-wrapper {
+    width: 285px;
+}
+.features-title-item {
+    width: 285px;
+}
+.features-text {
+    width: 285px;
+}
+.features-nav {
+    display: none;;
+}
+}
+/* Player Reviews */
+.reviews-title{
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.5;
+        text-align: center;
+        color: #a06646;
+        margin-bottom: 32px;
+}
+.reviews-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.reviews-wrapper{
+          background: #ffce45;
+        height: 184px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 48px 16px 24px 16px;
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+}
+.reviews-title-item{
+    font-family: "Comfortaa", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #4d2e1b;
+}
+.reviews-text{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #4d2e1b;
+}
+.reviews-custom-arrow {
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    background: #9100d9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-nav {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 34px;
+}
+@media only screen and (min-width: 1439px) {
+    .reviews-title {
+            font-size: 64px;
+            margin-bottom: 48px;
+        }
+    
+        .reviews-custom-arrow {
+            width: 40px;
+            height: 40px;
+        }
+    
+        .reviews-nav {
+            margin-top: 48px;  } 
+}
