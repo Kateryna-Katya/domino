@@ -1,0 +1,116 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    background: #f3ebd4;
+    z-index: 1000;
+    padding: 36px 20px;
+    width: 357px;
+    height: 352px;
+    text-align: center;
+    display: none;
+}
+
+.popup-close-button {
+    position: absolute;
+    background-color: inherit;
+    border: none;
+    top: 36px;
+    right: 20px;
+    margin-left: auto;
+}
+
+.cookie-class {
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #4d2e1b;
+    width: 317px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 317px;
+    height: 40px;
+    margin: 42px auto 0;
+}
+
+.btn-accept {
+    border: none;
+    background: #4d2e1b;
+    width: 153px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        color: #f3ebd4;
+    box-sizing: border-box;
+}
+
+.btn-decline {
+    border: 3px solid #4d2e1b;
+    width: 156px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        color: #4d2e1b;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 90px 72px;
+        width: 902px;
+        height: 568px;
+    }
+
+    .popup-close-button {
+        top: 90px;
+        right: 72px;
+    }
+
+    .cookie-class {
+        font-size: 36px;
+        width: 758px;
+        margin: 90px auto 0;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        width: 498px;
+        height: 62px;
+        gap: 48px;
+        margin: 64px 0 0 auto;
+    }
+
+    .btn-accept {
+        width: 223px;
+        height: 62px;
+        font-weight: 500;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+
+    .btn-decline {
+        width: 227px;
+        height: 62px;
+        font-weight: 500;
+        font-size: 20px;
+        box-sizing: border-box;
+        background-color: inherit;
+    }
+}
